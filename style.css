@@ -1,0 +1,51 @@
+*
+{
+margin: 0 auto;
+padding:auto;
+}
+ 
+a:link, a:visited
+{
+text-decoration:none;
+}
+
+ 
+html
+{
+background-color:white;
+}
+ 
+body
+{
+width:1000px;
+margin:auto;
+height:1000px;
+}
+
+
+.scrollup
+{
+width:40px;
+height:40px;
+opacity:0.4; /* Przezroczystość */
+position:fixed;
+bottom:50px; /* Można zmienić pozycje */
+right:100px; /* Można zmienić pozycję */
+display:none;
+text-indent:-9999px;
+background: url('icon_top.png') no-repeat;
+}
+
+h1, h2
+{
+padding:20px;
+text-align:center;
+}
+
+
+p
+{
+padding-top:30px;
+text-align:center;
+}
+ 
